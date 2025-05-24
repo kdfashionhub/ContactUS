@@ -145,4 +145,27 @@
           <h4 class="font-bold uppercase tracking-wider text-sm mb-6">NEWSLETTER</h4>
           <p class="text-gray-400 mb-4">Subscribe for exclusive offers and style insights.</p>
           <form class="flex">
-            <
+            <input type="email" placeholder="Your email" class="px-4 py-2 w-full text-gray-900 focus:outline-none">
+            <button type="submit" class="bg-secondary text-primary px-4 py-2 font-medium"><i class="fas fa-arrow-right"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-500 text-sm">
+        <p>© 2024 KD FASHION. All rights reserved. | <a href="#" class="hover:text-secondary">Privacy Policy</a> | <a href="#" class="hover:text-secondary">Terms of Service</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Navbar scroll effect
+    window.addEventListener('scroll', function() {
+      const navbar = document.getElementById('navbar');
+      if (window.scrollY > 50) {
+        navbar.classList.add('navbar-scrolled');
+      } else {
+        navbar.classList.remove('navbar-scrolled');
+      }
+    });
+  </script>
+</body>
+</html>
